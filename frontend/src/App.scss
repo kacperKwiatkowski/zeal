@@ -1,3 +1,10 @@
+@import "./layout/header/Header.scss";
+@import "./layout/movieBar/MovieBar.scss";
+@import "./layout/movieView/MovieView.scss";
+@import "./layout/footer/Footer.scss";
+
+@import "./styles/Variables.scss";
+
 body{
   background-color: black;
 }

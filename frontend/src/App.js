@@ -1,9 +1,9 @@
 import React, { Component }  from 'react';
 
-import Header from "./components/header/Header.js";
-import MovieBar from "./components/movieBar/MovieBar.js";
-import MovieView from "./components/movieView/MovieView.js";
-import Footer from "./components/footer/Footer.js";
+import Header from "./layout/header/Header.js";
+import MovieBar from "./layout/movieBar/MovieBar.js";
+import MovieView from "./layout/movieView/MovieView.js";
+import Footer from "./layout/footer/Footer.js";
 
 import "./App.scss"
 
