@@ -1,4 +1,7 @@
-import logo from '../../src/assets/images/zeal_logo_2.png'
+import React, { Component }  from 'react';
+
+import logo from '../../assets/images/zeal_logo_2.png'
+import "./Header.scss"
 
 const Header = () => {
         return(
