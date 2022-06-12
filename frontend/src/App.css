@@ -1,0 +1,96 @@
+body{
+  background-color: black;
+}
+
+header{
+  width: 100vw;
+  display:flex;
+  justify-content: space-between;
+
+}
+
+#logo{
+  width: 200px;
+  height: 100px;
+}
+
+#navbar {
+  margin: 0px 20px 0px 20px;
+}
+
+#navbar ul{
+  padding: 0px;
+  margin: auto;
+}
+
+#navbar ul li{
+  list-style-type: none;
+
+  height: 100px;
+  margin: auto 40px auto 40px;
+  padding-inline-start: 0px;
+
+  font-size: 20px;
+  font-family: 'Vonique 64';
+  font-weight:bolder;
+
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  color: rgb(255, 255, 255);
+  text-shadow:
+  0 0 7px #cf47e2,
+  0 0 10px #cf47e2,
+  0 0 21px #cf47e2,
+  0 0 42px #7200ff,
+  0 0 82px #7200ff,
+  0 0 92px #7200ff,
+  0 0 102px #7200ff,
+  0 0 151px #7200ff;
+
+  transition: 0.5s ease-in-out;
+}
+
+#navbar ul li:hover{
+  text-decoration: underline;
+  text-shadow:
+  0 0 7px #d297da,
+  0 0 10px #d297da,
+  0 0 21px #d297da,
+  0 0 42px #bf8aff,
+  0 0 82px #bf8aff,
+  0 0 92px #bf8aff,
+  0 0 102px #bf8aff,
+  0 0 151px #bf8aff;
+
+  transition: 0.5s ease-in-out;
+}
+
+.text-block{
+  list-style-type: none;
+
+  height: 100px;
+  width: 500px;
+  margin: auto 40px auto 40px;
+  padding-inline-start: 0px;
+
+  font-size: 12px;
+  font-family: 'Vonique 64';
+
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  color: rgb(255, 255, 255);
+  text-shadow:
+  0 0 2px #cf47e2,
+  0 0 5px #cf47e2,
+  0 0 10px #cf47e2,
+  0 0 20px #7200ff,
+  0 0 40px #7200ff,
+  0 0 46px #7200ff,
+  0 0 50px #7200ff,
+  0 0 75px #7200ff;
+}
+
